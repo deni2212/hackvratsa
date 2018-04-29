@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Марс</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Mars.css">
+	<style type="text/css">
+		
+		ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index: 99;
+}
+ul li{
+    float: left; 
+    width: 263px;
+    height: 40px;
+    background-color: black;
+    opacity: 1;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    position: relative;
+    z-index: 99;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: green;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+	</style>
+</head>
+<body>
+  <ul id="main" style="position: absolute; top:0;">
+    <li><a href="start.html">Начало</a></li>
+
+
+      <li id="a"><a  href="">Космически кораби</a>
+      <ul id="notmain">
+        <li><a href="mks.html">МКС</a></li>
+        <li><a href="Voiadger.html">Вояджър</a></li>
+        <li><a href="habal.html">Хъбъл</a></li>
+      </ul>
+    </li>
+  
+    <li>
+      <a href="">Хора в космоса</a>
+
+      <ul>
+        <li>
+          <a href="gagarin.html">Юрий Гагарин</a>
+        </li>
+        <li>
+          <a href="ivan.html">Георги Иванов</a>
+        </li>
+        
+      </ul> 
+    </li>
+  
+    <li>
+      <a href="">Анимации</a>
+      <ul>
+        <li>
+          <a href="upiter.html">Юпитер</a>
+        </li>
+        <li>
+          <a href="Earth.html">Земята</a>
+        </li>
+        <li>
+          <a href="Mars.html">Марс</a>
+        </li>
+        <li>
+          <a href="moon,earth.html">Орбита</a>
+        </li>
+        <li>
+          <a href="solar_system.html">Слънчева система</a>
+        </li>
+        <li>
+          <a href="moon.html">Луната</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="index.html">Игра</a>
+    <ul>
+      	<li><a href="index.html">Space Invenders</a></li>
+        <li><a href="street.html">Space street</a></li>
+
+      </ul>
+    </li>
+</ul>
+	<div class="planet"> 
+  <div class="wrap">
+     <div class="background"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+
+</body>
+</html>
